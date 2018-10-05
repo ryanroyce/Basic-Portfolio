@@ -125,4 +125,127 @@ input {
     padding: 6px 6px;
 }
 
+#portfoliobox {
+    position: relative;
+    height: 935px;
+    width: 960px;
+    z-index: 0;
+}
 
+#porttitle {
+    padding-left: 1.5%;
+    padding-top: 1.7%;
+}
+
+#hrport {
+    width: 96.5%;
+}
+
+#portpics1 {
+    /* float: left; */
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    z-index: 1;
+}
+
+#portpics2 {
+    /* float: left; */
+    position: absolute;
+    top: 10%;
+    left: 35.5%;
+    /* clear:both; */
+}
+
+#portpics3 {
+    position: absolute;
+    top: 36.5%;
+    left: 3%;
+}
+
+#portpics4 {
+    position: absolute;
+    top: 36.5%;
+    left: 35.5%;
+}
+
+#portpics5 {
+    position: absolute;
+    top: 63%;
+    left: 3%;
+}
+
+#antstext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align-last: center;
+    padding: 2%;
+    width: 24.1%;
+    height: 2%;
+    z-index: 2;
+    top: 22.2%;
+    left: 3%;
+}
+
+#technicstext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align-last: center;
+    padding: 2%;
+    width: 24.1%;
+    height: 2%;
+    z-index: 2;
+    top: 22.2%;
+    left: 35.5%;
+}
+
+#dirtbiketext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align-last: center;
+    padding: 2%;
+    width: 24.1%;
+    height: 2%;
+    z-index: 2;
+    top: 48.8%;
+    left: 3%;
+}
+
+#gorillatext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align-last: center;
+    padding: 2%;
+    width: 24.1%;
+    height: 2%;
+    z-index: 2;
+    top: 48.8%;
+    left: 35.5%;
+}
+
+#traveltext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align-last: center;
+    padding: 2%;
+    width: 24.1%;
+    height: 2%;
+    z-index: 2;
+    top: 75.4%;
+    left: 3%;
+}
