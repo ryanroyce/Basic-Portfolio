@@ -1,24 +1,128 @@
-/*
 body {
-    background-image: url("/assets/images/wheat.png");
-background */
+    background-image: url("/assets/images/concrete_seamless.png");
+    z-index: 1;
+}
 
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    width: 150px;
+    height: 32px;
+    padding: 22px;
+    position: relative;
+    left:10%;
+}
 
+header {
+    width: 100%;
+    height: 76px;
+    background-color: white;
+    position: relative;
+    bottom: 16px;
+    border-bottom: solid #cccccc 2px;
+}
 
+.navigation {
+    opacity: .6;
+    float: right;
+    position: relative;
+    right: 10%;
+    bottom: 65px;
+}
+a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+    padding:10px;
+}
 
+#vertline {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    opacity: .2;
+    display: inline;
 
+}
 
-
-
-
-
-
-
-
-
-
-  .container{
+.wrapper {
     max-width: 960px;
-    margin: 0 auto 0 auto;
-    border: 5px solid red;
-}  for making the container div the size specified in the homework
+    margin: 0 auto 100px auto;
+    border: 1px solid #dddddd;
+    background-color: white;
+}
+
+h2 { color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+hr {
+    height: 1px;
+    opacity: .3;
+    background-color: #777777;
+}
+
+#biopic {
+    float: left;
+    padding: 15px 15px 0 0;
+}
+
+.para{
+    line-height: 2;
+    padding: 10px;
+    opacity: .8;
+}
+
+#biobox {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 15px;
+}
+
+footer {
+    background-color: #666666;
+    height: 45px;
+    position: relative;
+    border-top: solid #4aaaa5 7px;
+}
+
+#copyright {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    color: lightgray;
+    opacity: .8;
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+}
+
+label {
+    opacity: .8;
+}
+
+input {
+    width: 920px;
+
+}
+
+textarea {
+    border: 1px solid #dfdfdf;
+    opacity: .8;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 12px 40px;
+    font-size: 14px;
+}
+
+input {
+    opacity: .8;
+    padding: 6px 6px;
+}
+
+
