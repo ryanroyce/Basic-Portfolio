@@ -1,7 +1,8 @@
 body {
-    background-image: url("/assets/images/concrete_seamless.png");
+    background-image: url("../images/concrete_seamless.png");
     z-index: 1;
 }
+
 
 h1 {
     background-color: #4aaaa5;
